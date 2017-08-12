@@ -1,0 +1,38 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#2e8abb</item> <!--浅蓝色-->
+        <item name="colorPrimaryDark">#7290e9</item> <!--深蓝色-->
+    </style>
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <style name="PhotoSelectDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/Anim_scale</item>
+        <item name="android:inAnimation">@anim/bottomin</item>
+        <item name="android:outAnimation">@anim/bottomout</item>
+    </style>
+    <style name="Anim_scale" parent="@style/Animation.AppCompat.Dialog">
+        <item name="android:activityOpenEnterAnimation">@anim/bottomin</item>
+        <item name="android:activityOpenExitAnimation">@anim/bottomout</item>
+        <item name="android:activityCloseEnterAnimation">@anim/bottomin</item>
+        <item name="android:activityCloseExitAnimation">@anim/bottomout</item>
+
+    </style>
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+    <!--<style name="AppTheme" parent="AppTheme.Base"/>-->
+    <!--<style name="AppTheme.Base" parent="Theme.AppCompat">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<del>-->
+            <!--<item name = "android:windowNoTitle">true</item>-->
+            <!--<item name="windowNoTitle">true</item>-->
+        <!--</del>-->
+    <!--</style>-->
+
+</resources>
